@@ -1,3 +1,13 @@
 # Exclude IDE files
 /.idea/
 /.venv/
+
+# Exclude Pytest files
+.pytest_cache/
+__pycache__/
+
+# Exclude config files
+/Exam/config.yaml
+
+# Exclude WebDriver
+/chromedriver.exe
